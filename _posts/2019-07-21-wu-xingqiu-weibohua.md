@@ -2,8 +2,8 @@
 layout: default
 title: "知识星球必将走向微博化，微博才是最高级的形态"
 author: 李佶澳
-createdate: "2019-07-21T16:56:09+0800"
-changedate: "2019-07-21T17:55:50+0800"
+date: "2019-07-21T16:56:09+0800"
+last_modified_at: "2019-07-21T17:55:50+0800"
 categories: note
 tags: 产品分析
 cover: weibo.jpg

@@ -2,8 +2,8 @@
 layout: default
 title: "打通任督二脉: 流量、产品、技术"
 author: 李佶澳
-createdate: "2019-07-21T16:42:46+0800"
-changedate: "2019-07-21T17:57:03+0800"
+date: "2019-07-21T16:42:46+0800"
+last_modified_at: "2019-07-21T17:57:03+0800"
 categories: note
 tags: 大局观
 cover:  ma.jpg

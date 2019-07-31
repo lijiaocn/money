@@ -2,8 +2,8 @@
 layout: default
 title: "一天涨520%的科创板是怎么回事？"
 author: 李佶澳
-createdate: "2019-07-23T08:29:24+0800"
-changedate: "2019-07-23T08:36:05+0800"
+date: "2019-07-23T08:29:24+0800"
+last_modified_at: "2019-07-23T08:36:05+0800"
 categories:  method
 tags: 股市投资
 cover: kechuangdaxin.jpg

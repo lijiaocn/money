@@ -2,8 +2,8 @@
 layout: default
 title: "远古时代就有，现在依然有效的赚钱方法"
 author: 李佶澳
-createdate: "2019-07-21T12:36:23+0800"
-changedate: "2019-07-21T15:35:00+0800"
+date: "2019-07-21T12:36:23+0800"
+last_modified_at: "2019-07-21T15:35:00+0800"
 categories: method
 tags: 流量赚钱
 cover: dog.jpg

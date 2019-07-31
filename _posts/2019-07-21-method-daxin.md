@@ -2,8 +2,8 @@
 layout: default
 title: "A股的打新获利是这么回事"
 author: 李佶澳
-createdate: "2019-07-21T17:33:49+0800"
-changedate: "2019-07-21T17:40:41+0800"
+date: "2019-07-21T17:33:49+0800"
+last_modified_at: "2019-07-21T17:40:41+0800"
 categories: method
 tags: 股市投资
 cover: gushi.jpg

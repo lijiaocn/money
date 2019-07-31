@@ -2,8 +2,8 @@
 layout: default
 title: "YouTube可以用来赚钱"
 author: 李佶澳
-createdate: "2019-07-21T15:19:42+0800"
-changedate: "2019-07-21T15:33:50+0800"
+date: "2019-07-21T15:19:42+0800"
+last_modified_at: "2019-07-21T15:33:50+0800"
 categories: method
 tags: 流量赚钱
 cover: youtube.jpg

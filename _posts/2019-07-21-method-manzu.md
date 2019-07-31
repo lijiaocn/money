@@ -2,8 +2,8 @@
 layout: default
 title: "顺势而为，去满足，不要去改变"
 author: 李佶澳
-createdate: "2019-07-21T15:34:05+0800"
-changedate: "2019-07-21T15:41:46+0800"
+date: "2019-07-21T15:34:05+0800"
+last_modified_at: "2019-07-21T15:41:46+0800"
 categories: note
 tags: 思路感悟 流量赚钱
 cover: pubu.jpg

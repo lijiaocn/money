@@ -2,8 +2,8 @@
 layout: default
 title: "可能得罪人的事不做，可能得罪人的话不说"
 author: 李佶澳
-createdate: "2019-07-21T17:03:38+0800"
-changedate: "2019-07-21T17:08:47+0800"
+date: "2019-07-21T17:03:38+0800"
+last_modified_at: "2019-07-21T17:08:47+0800"
 categories:  note
 tags: 思路感悟
 cover: zhuangche.jpg

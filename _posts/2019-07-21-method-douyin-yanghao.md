@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "抖音养号技巧"
-createdate: "2019-07-21T15:58:25+0800"
-changedate: "2019-07-21T17:55:15+0800"
+date: "2019-07-21T15:58:25+0800"
+last_modified_at: "2019-07-21T17:55:15+0800"
 categories: method
 tags: 流量赚钱
 cover: douyin.jpg

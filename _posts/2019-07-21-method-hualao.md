@@ -2,8 +2,8 @@
 layout: default
 title: "话唠经济，话唠逆袭的时代"
 author: 李佶澳
-createdate: "2019-07-21T14:52:07+0800"
-changedate: "2019-07-21T17:58:30+0800"
+date: "2019-07-21T14:52:07+0800"
+last_modified_at: "2019-07-21T17:58:30+0800"
 categories: note
 tags: 大局观
 cover: eyu.jpg
