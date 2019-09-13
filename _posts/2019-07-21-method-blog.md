@@ -4,7 +4,7 @@ title: "远古时代就有，现在依然有效的赚钱方法"
 author: 李佶澳
 date: "2019-07-21T12:36:23+0800"
 last_modified_at: "2019-07-21T15:35:00+0800"
-categories: method
+categories: note
 tags: 流量赚钱
 cover: dog.jpg
 keywords: 博客,google广告,adsense,赚钱方法,广告联盟

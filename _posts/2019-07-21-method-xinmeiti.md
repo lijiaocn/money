@@ -4,7 +4,7 @@ title: "博客时代的延续：新媒体的赚钱方法"
 author: 李佶澳
 date: "2019-07-21T13:48:01+0800"
 last_modified_at: "2019-07-21T15:17:53+0800"
-categories: method
+categories: note
 tags: 流量赚钱
 cover: haozi.jpg
 keywords: 自媒体,微信公众号,信息流,创作平台,自媒体赚钱

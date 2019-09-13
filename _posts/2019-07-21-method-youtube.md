@@ -4,7 +4,7 @@ title: "YouTube可以用来赚钱"
 author: 李佶澳
 date: "2019-07-21T15:19:42+0800"
 last_modified_at: "2019-07-21T15:33:50+0800"
-categories: method
+categories: note
 tags: 流量赚钱
 cover: youtube.jpg
 keywords: youtube收益,youtube赚钱方法

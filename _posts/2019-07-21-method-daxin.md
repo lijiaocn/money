@@ -4,7 +4,7 @@ title: "A股的打新获利是这么回事"
 author: 李佶澳
 date: "2019-07-21T17:33:49+0800"
 last_modified_at: "2019-07-21T17:40:41+0800"
-categories: method
+categories: note
 tags: 股市投资
 cover: gushi.jpg
 keywords: 打新,无风险套利,A股打新

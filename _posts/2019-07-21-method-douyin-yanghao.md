@@ -3,7 +3,7 @@ layout: default
 title: "抖音养号技巧"
 date: "2019-07-21T15:58:25+0800"
 last_modified_at: "2019-07-21T17:55:15+0800"
-categories: method
+categories: note
 tags: 流量赚钱
 cover: douyin.jpg
 keywords: 抖音,抖音养号,抖音流量

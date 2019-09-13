@@ -4,7 +4,7 @@ title: "有排行榜，就有操作空间，就有生意可做"
 author: 李佶澳
 date: "2019-07-21T14:34:10+0800"
 last_modified_at: "2019-07-21T14:52:00+0800"
-categories: method
+categories: note
 tags: 流量赚钱
 cover: yazi.jpg
 keywords: seo,aso,排行榜,
