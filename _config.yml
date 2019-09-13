@@ -24,7 +24,7 @@ excerpt_separator: "----"
 permalink: pretty
 pagination:
   enabled: true
-  per_page: 20
+  per_page: 15
   permalink: '/:num/'
   title: ':title | :num of :max'
   limit: 0
