@@ -73,14 +73,16 @@ section.mainwrapper .main {
     margin: 0px;
     padding: 0px;
     border: 0px solid #333333;
-    float:left;
+    /*float:left;*/
     width: 100%;
+    display: flex;
+    justify-content:center;
 }
 
 section.mainwrapper .main .center {
     padding: 0px;
     margin: 0px;
-    margin-right: 336px;
+    /*margin-right: 336px;*/
 }
 
 article.center .title{
@@ -347,7 +349,7 @@ aside.rsidebar .rsidebar-title {
     .container {
     }
     section.mainwrapper .main .center {
-        margin-right: 336px;
+       /* margin-right: 336px;*/
     }
     .rsidebar {
     }
@@ -358,7 +360,7 @@ aside.rsidebar .rsidebar-title {
     .main {
     }
     section.mainwrapper .main .center {
-        margin-right: 336px;
+      /*  margin-right: 336px;*/
     }
     .rsidebar {
     }
@@ -367,14 +369,14 @@ aside.rsidebar .rsidebar-title {
 /*col-md-*/
 @media (min-width: 992px) and (max-width: 1199px) {
     section.mainwrapper .main .center {
-        margin-right: 336px;
+      /*  margin-right: 336px; */
     }
 }
 
 /*col-sm-*/
 @media (min-width: 768px) and (max-width: 991px) {
     section.mainwrapper .main .center {
-        margin-right: 336px;
+       /* margin-right: 336px;*/
     }
 }
 
