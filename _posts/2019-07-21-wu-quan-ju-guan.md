@@ -5,7 +5,7 @@ author: 李佶澳
 date: "2019-07-21T17:15:28+0800"
 last_modified_at: "2019-07-21T17:57:35+0800"
 categories: note
-tags: 大局观
+tags: 思路感悟
 cover: maoyuqian.jpg
 keywords: 全局认识,赚钱方法,轻松赚钱
 description: 肆意流动的金钱洪流从普罗大众中形成，最终又散向普罗大众，然而绝大多数人得不到它的直接润泽，只能依靠多次倒手后剩余的涓涓细流存活

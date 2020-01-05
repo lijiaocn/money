@@ -5,7 +5,7 @@ author: 李佶澳
 date: "2019-07-21T14:52:07+0800"
 last_modified_at: "2019-07-21T17:58:30+0800"
 categories: note
-tags: 大局观
+tags: 思路感悟
 cover: eyu.jpg
 keywords: 话唠,二八定律,大V,粉丝
 description: 这就是一种“话痨经济”，愿意表达、能够表达的人其实很少，能表达出来，就有人看有人听，即使是在唠嗑。二八定律适用于很多场合

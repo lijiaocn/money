@@ -5,7 +5,7 @@ author: 李佶澳
 date: "2019-07-21T16:42:46+0800"
 last_modified_at: "2019-07-21T17:57:03+0800"
 categories: note
-tags: 大局观
+tags: 思路感悟
 cover:  ma.jpg
 keywords: 流量,产品,技术
 description: 按照到达顺序排列就是：流量、产品、技术。之前看到的案例无一例外，全部落在这个框架中。框架是非常重要，非常有意义
