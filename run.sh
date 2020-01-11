@@ -7,5 +7,6 @@
 #
 
 port=`cat port`
-nohup bundle exec jekyll serve --port $port --incremental 2>&1 1 > /tmp/jekyll.log &
+#nohup bundle exec jekyll serve --port $port --incremental 2>&1 1 > /tmp/jekyll.log &
+nohup bundle exec jekyll serve --port $port 2>&1 1 > /tmp/jekyll.log &
 #bundle exec jekyll serve --port `cat port`

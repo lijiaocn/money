@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="赚钱笔记：本书是晨星公司主管股票研究业务的帕特·多尔西撰写，介绍了晨星公司的实战经验。晨星公司（Morningstar）是目前美国最主要的投资研究机构之一和国际基金评级的权威构">
+<meta name="keywords" content="赚钱笔记,巴菲特,护城河,价值投资,晨星公司,帕特·多尔西">
+<meta name="author" content="李佶澳">
+
+<title>《巴菲特的护城河》帕特·多尔西， 晨星公司选股解密 赚钱笔记</title>
+
+<link rel="stylesheet" type="text/css" href="/money/assets/bootstrap-3.3.7/css/bootstrap.min.css">
+<!--link rel="stylesheet" type="text/css" href="/money/assets/bootstrap-3.3.7/css/bootstrap-theme.min.css"-->
+<link rel="stylesheet" type="text/css" href="/money/assets/css/default.css">
+<link rel="stylesheet" type="text/css" href="/money/assets/css/highlight.css">
+<link rel="alternate" type="application/rss+xml" title="赚钱笔记" href="/feed.xml">
+<link rel="icon" href="/favicon.ico">
+
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@graph":[
+    {
+      "@type": "Organization",
+      "logo": "https://www.lijiaocn.com/money/img/logo-112x112.jpg",    //LOGO图片地址，必须是112x112，.jpg,.png,.gif
+      "url": "https://www.lijiaocn.com"               //与Logo相关联的url
+    },
+/*   
+    {   
+      "@type": "WebSite",
+      "url": "https://www.lijiaocn.com",              //被搜索的网站
+      "potentialAction": {
+        "@type": "SearchAction", 
+                                                      //targe指定的域名必须是站点域名，不能用第三方搜索
+        "target": "https://www.lijiaocn.com/search?q={search_term_string}+site%3Alijiaocn.com", 
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Person",                         //社交账号
+	  "name": "赚钱笔记",                    //组织或个人名称
+      "url": "https://www.lijiaocn.com",         //网站地址
+      "sameAs": [
+        "http://www.facebook.com/your-profile",  //社交账号地址，不支持的国内的
+        "http://instagram.com/yourProfile",
+        "http://www.linkedin.com/in/yourprofile",
+        "http://plus.google.com/your_profile"
+      ]
+    },
+*/
+    {
+      "@type": "BreadcrumbList",
+       "itemListElement": [{
+          "@type": "ListItem",
+          "position": 1,
+          
+          
+          "name": "读书笔记",
+          "item": "https://www.lijiaocn.com/money/c/book/"
+       },{
+          "@type": "ListItem",
+          "position": 2,
+          "name": "巴菲特",
+          "item": "https://www.lijiaocn.com/money/t/all#巴菲特"
+       }]
+    },
+    {
+      "@type": "Article",
+      "dateModified": "2015-02-05T08:00:00+08:00",
+      "datePublished": "2015-02-05T08:00:00+08:00",
+      "headline": "《巴菲特的护城河》帕特·多尔西， 晨星公司选股解密",
+      "image": [                                                //提供三张不同比例的高清图片，长x宽 >= 300 000 
+        "https://www.lijiaocn.com/money/img/cover/1x1/bfthch.jpg",  //至少：600*600 = 360 000
+        "https://www.lijiaocn.com/money/img/cover/4x3/bfthch.jpg",  //至少：800*600 = 480 000
+        "https://www.lijiaocn.com/money/img/cover/16x9/bfthch.jpg"  //至少：960*540 = 518 400
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "李佶澳"    //作者名称
+      },
+      "publisher": {
+         "@type": "Organization",
+         "name": "赚钱笔记",                          //发布机构名称
+         "logo": {
+           "@type": "ImageObject",
+           "url": "https://www.lijiaocn.com/money/img/logo-112x112.jpg" //发布机构Logo,遵循
+         }
+      },
+      "description": "本书是晨星公司主管股票研究业务的帕特·多尔西撰写，介绍了晨星公司的实战经验。晨星公司（Morningstar）是目前美国最主要的投资研究机构之一和国际基金评级的权威构",
+      "mainEntityOfPage": "https://www.lijiaocn.com/money/book/2020/01/11/ba-fei-te-hu-cheng-he/",       //网页权威链接，无重复网页就设置成当前页地址
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "xpath": [
+          "/html/head/title",                              //指向head中的title
+          "/html/head/meta[@name='description']/@content"  //指向head中的description
+         ]
+      }
+    }
+  ]
+ }
+</script>
+
+
+
+<!--Google ads 全局依赖代码 -->
+<script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics 全局依赖代码-->
+<script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-105389858-1"></script>
+<!-- 需要尽早执行的js代码 -->
+<script async="async" src="/money/assets/js/head.js" ></script>
+
+</head>
+<body class="body custom-background">
+    <nav class="navbar navbar-fixed-static topnav">
+        <!-- display sm md lg -->
+<div class="container" >
+  <div class="navbar-header">
+    <button id="navb" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#categories" aria-expanded="false" aria-controls="navbar">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar" style="color:black"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="navbar-brand hidden-sm">
+      <span><a href="https://www.lijiaocn.com/money/c/note/" title="主页">赚钱笔记</a></span>
+      <span class="glyphicon glyphicon-hand-right" style="margin-left:15px"></span>
+    </div>
+  </div>
+  <div class="collapse navbar-collapse" id="categories">
+    <ul class="nav navbar-nav">
+       
+      
+      
+      <li><a href="/money/c/note/">思路技巧</a></li>
+       
+      
+      
+      <li><a href="/money/c/book/">读书笔记</a></li>
+      
+      <li><a href="/money/t/all/">标签</a></li>
+    </ul>
+  </div>
+</div>
+
+    </nav>
+
+    <!--aside class="lsidebar"></aside-->
+
+    <section class="banner">
+        
+    </section>
+
+    <section class="container mainwrapper">
+        <div class="main">
+            <article class="center">
+                <div class="title">
+  <h1>《巴菲特的护城河》帕特·多尔西， 晨星公司选股解密</h1>
+</div>
+
+<div class="pageheader">
+  <p>
+<span>
+<a target="_blank" style="color:red;font-weight:bold" href="https://www.lijiaocn.com/life/discount/">淘宝/天猫优惠券</a>&nbsp&nbsp&nbsp
+<a target="_blank" style="color:red;font-weight:bold" href="https://c.duomai.com/track.php?k=WYppWas1DZpVXZmcDOwMTPklWYmAjMzUjMy0DZp9VZ0l2cmYiRyUSbvNmLzYTMuU3b5ZkMlYkMlE0MlAHd0hWP0Zibj9">网易严选，品味专用</a>
+</span>
+</p>
+
+
+</div>
+
+<div class="top_ad">
+  <!-- 顶部条幅广告 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8176866190626448"
+     data-ad-slot="1000173679"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+  <br>
+</div>
+
+
+<div class="author">
+  <br>
+  <p>作者:&nbsp;<a href="/money/about/">李佶澳</a>&nbsp;&nbsp;&nbsp;<a href="">原文地址</a>&nbsp;&nbsp;&nbsp;上次更新：2020-01-11T14:16:23+0800</p>
+
+</div>
+
+
+
+<div class="author">
+  <img src="/money/img/cover/16x9/bfthch.jpg" alt="《巴菲特的护城河》帕特·多尔西， 晨星公司选股解密"/>
+  <br>
+  <p>
+
+<span class="glyphicon glyphicon-folder-open"></span>
+
+
+<span>&nbsp<a href="/money/c/book/">读书笔记</a>&nbsp</span>
+
+
+
+<span class="glyphicon glyphicon-tag"></span>
+<span><a href="/money/t/all/#巴菲特">巴菲特</a>&nbsp</span>
+
+
+<span><a href="http://qr.liantu.com/api.php?text=https://www.lijiaocn.com/money/book/2020/01/11/ba-fei-te-hu-cheng-he/">微信收藏</a></span>
+</p>
+
+</div>
+
+
+<div class="top_social">
+  
+</div>
+
+<div class="content">
+  <h2 id="本篇目录">本篇目录</h2>
+
+<ul id="markdown-toc">
+  <li><a href="#本篇目录" id="markdown-toc-本篇目录">本篇目录</a></li>
+  <li><a href="#说明" id="markdown-toc-说明">说明</a></li>
+  <li><a href="#晨星公司" id="markdown-toc-晨星公司">晨星公司</a></li>
+  <li><a href="#章节目录" id="markdown-toc-章节目录">章节目录</a></li>
+  <li><a href="#引言伟大源于本质" id="markdown-toc-引言伟大源于本质">引言：伟大源于本质</a></li>
+  <li><a href="#第-1-章什么是经济护城河" id="markdown-toc-第-1-章什么是经济护城河">第 1 章：什么是经济护城河？</a></li>
+  <li><a href="#第-2-章真假护城河" id="markdown-toc-第-2-章真假护城河">第 2 章：真假护城河</a></li>
+  <li><a href="#第-3-章无形资产" id="markdown-toc-第-3-章无形资产">第 3 章：无形资产</a></li>
+  <li><a href="#第-4-章转换成本" id="markdown-toc-第-4-章转换成本">第 4 章：转换成本</a></li>
+  <li><a href="#第-5-章网络效应" id="markdown-toc-第-5-章网络效应">第 5 章：网络效应</a></li>
+  <li><a href="#第-6-章成本优势" id="markdown-toc-第-6-章成本优势">第 6 章：成本优势</a></li>
+  <li><a href="#第-7-章规模优势" id="markdown-toc-第-7-章规模优势">第 7 章：规模优势</a></li>
+  <li><a href="#参考" id="markdown-toc-参考">参考</a></li>
+</ul>
+
+<h2 id="说明">说明</h2>
+
+<p>晨星公司（Morningstar）是目前美国最主要的投资研究机构之一和国际基金评级的权威机构，旨在为投资者提供专业的财经资讯、基金及股票的分析和评级，以及方便、实用、功能卓著的分析应用软件工具。</p>
+
+<p>本书是晨星公司主管股票研究业务的帕特·多尔西撰写，介绍了晨星公司的实战经验。</p>
+
+<p><a href="https://www.amazon.cn/dp/B07Z4QYP2Q?tag=lijiao-23">Kindle 电子书：《巴菲特的护城河》</a></p>
+
+<h2 id="晨星公司">晨星公司</h2>
+
+<p>创始人：乔·曼斯威托（JoeMansueto）</p>
+
+<p>我们认为，投资者在确定长期投资目标时，首先需要考虑的就是企业是否拥有牢固的经济护城河，即企业是否能在较长时期内实现超额收益，并随着时间的推移，通过股价体现其超过市场大盘的盈利能力。</p>
+
+<p>我们评价一只股票的等级取决于以下2个基本因素：　</p>
+
+<ul>
+  <li>我们对股票预期公允价值的贴现</li>
+  <li>公司护城河的规模</li>
+</ul>
+
+<p>我们的股票分析师需要定期就护城河问题展开讨论，向上司汇报自己对护城河问题的评价结果。</p>
+
+<p>虽然我们要寻找的是那些拥有护城河的企业，但我们希望能按更低的公允价值贴现值来买进它们的股票。</p>
+
+<p><strong>但斌</strong>：如何能在比例高达97%的企业衰败过程中避免损失并追求到3%的常青企业的最大利益呢？</p>
+
+<h2 id="章节目录">章节目录</h2>
+
+<p>全书由引言和 14 章内容组成。各章节主题如下：</p>
+
+<ul>
+  <li>什么是经济护城河？</li>
+  <li>真假护城河</li>
+  <li>无形资产的价值</li>
+  <li>转换成本</li>
+  <li>网络效应</li>
+  <li>成本优势</li>
+  <li>规模优势</li>
+  <li>护城河的颓势</li>
+  <li>发现护城河</li>
+  <li>管理没那么重要</li>
+  <li>5 个案例分析</li>
+  <li>护城河估价</li>
+  <li>估价工具</li>
+  <li>卖出时机</li>
+</ul>
+
+<p>从章节目录可以看出，护城河主要有 5 个方面：无形资产、转换成本、网路效应、成本优势、规模优势。同时要注意护城河不是一成不变的，要不停的审视，该卖出时卖出。 另外，要以合理的价格买入。</p>
+
+<h2 id="引言伟大源于本质">引言：伟大源于本质</h2>
+
+<p>股票市场上赚钱的几种方法：</p>
+
+<ul>
+  <li>猜测哪个公司的季度营收超过收益预测</li>
+  <li>买进强势上升的股票，找人接手</li>
+  <li>买进分文不值的股票，期待股价反弹</li>
+  <li>合理价位买进业绩超群的公司，长期持有，享受现金流</li>
+</ul>
+
+<p>护城河的选择是最后一种做法，落实方法为：</p>
+
+<ul>
+  <li>寻找能持续多年实现超额收益的企业；</li>
+  <li>耐心等待，在股价低于其内在价值时买进；</li>
+  <li>持有股票，直到企业出现衰退导致股价高估或是找到更佳的投资机会时卖出，持有期至少应达到1年，而不是以月数来衡量；</li>
+</ul>
+
+<p>资本回报率最能说明企业的盈利能力。它衡量了一个企业是否能有效地利用其全部资产：厂房、人员和投资，为股东创造价值。资本回报率是动态的，高回报率会吸引更多人入场，竞争加剧，企业的超额收益下降，之后企业开辟新的业务和竞争对手退出，业绩得到改善。</p>
+
+<p><strong>有一些公司能长期在竞争对手面前岿然不动，它们就是你要找的财富创造机器，它们也是你构筑投资组合的基石。</strong>  <code class="highlighter-rouge">目标确立</code></p>
+
+<p><strong>到底是什么阻止敏捷灵活、资金丰厚的竞争对手侵入它们的领地呢？</strong> <code class="highlighter-rouge">规律提炼，本质挖掘</code></p>
+
+<p><strong>即使是护城河再宽的公司，如果你以太高的成本购买其股票，也可能让你赔钱</strong> <code class="highlighter-rouge">价格需要合适</code></p>
+
+<h2 id="第-1-章什么是经济护城河">第 1 章：什么是经济护城河？</h2>
+
+<p>越是经久耐用的东西，人们就越愿意为其支付更高的价钱。因为随着人们对这些物品的使用时间越来越长，就在一定意义上弥补了高昂的采购成本。</p>
+
+<p>寿命长久的企业，也就是竞争优势更强大的公司，注定比那些昙花一现的公司更有投资价值，因为后者从来就没有过什么竞争力。</p>
+
+<p>到底是什么决定了企业的价值？</p>
+
+<p>公寓楼的价值：租户支付的房租 - 维修费用。一家公司的价值，就等于预期创造的现金现值减去维持和扩大经营所必需的支出。（未来现金流折现）</p>
+
+<p>只要有另一家公司开发出更好的玩意，它们的竞争优势便会在一夜间荡然无存。</p>
+
+<p>可口可乐赖以生存的毕竟还是自己的核心品牌，因此，两次失误并没有把它带入绝境。</p>
+
+<p>可口可乐公司已经对自己的分销渠道实现了掌控。</p>
+
+<p>麦当劳那无人不知、无人不晓的品牌就是它最安全的护城河，再加上其无所不在的经营网络，最终它重整旗鼓，凭借那些没有护城河的连锁餐饮店无法比拟的优势，东山再起。</p>
+
+<blockquote>
+  <p>品牌和销售网络！只要这两者还在，就还有机会。</p>
+</blockquote>
+
+<p>公司面临的问题到底是暂时性的，还是永久性的？（药品集中采购对恒瑞医疗的影响）</p>
+
+<p>如果能把投资范围限定在自己熟悉的领域，比如说金融股或是技术股，而不是广种薄收，那么大多数投资者也还能够取得相当不错的业绩。</p>
+
+<blockquote>
+  <p>汗！这一章就讲了一堆护城河的好处。。。到最后也没说什么是护城河！</p>
+</blockquote>
+
+<h2 id="第-2-章真假护城河">第 2 章：真假护城河</h2>
+
+<p>经济护城河是企业能常年保持竞争优势的结构性特征，是其竞争对手难以复制的品质。</p>
+
+<p>即使是管理再糟糕的制药公司和银行，在长期资本回报率方面也会让极其优秀的化工或汽车配件公司自叹弗如。</p>
+
+<p>最常见的虚假护城河就是优质产品、高市场份额、有效执行和卓越管理。这4个陷阱可能让人误以为公司有护城河，但事实很可能并非如此。</p>
+
+<p>优质产品很少会形成护城河，尽管它确实能给企业带来可喜的短期业绩。</p>
+
+<p>Gentex在汽车镜方面拥有多项专利，这就意味着，其他厂商根本不能与之相抗衡。</p>
+
+<p>乙醇的生产与加工却是一个典型的无护城河业务。如果乙醇加工厂的规模太大，在成本上就是不划算的，因为一旦规模太大，就需要在较大地域内收集玉米，而这又会增加进货成本。此外，处理生产残余物也需要耗用大量的天然气。</p>
+
+<p>一鸣惊人的产品或服务，偶尔也能转化为一种经济护城河。借此机会与啤酒巨头安海斯－布希公司联手，双方共同达成长期分销协议。这就让它在运动饮料市场上一举建立起其他竞争对手所不具备的优势。</p>
+
+<p>在竞争惨烈的市场上，领先的优势可以转瞬即逝。</p>
+
+<p>柯达（胶卷）、IBM（个人计算机）、网景（互联网浏览器）、通用汽车（汽车制造）和Corel（文字处理器软件），就是经历过这类事件的公司。</p>
+
+<p>我们首先需要提出的问题，并不是企业是否拥有巨大的市场份额，而是它如何赢得市场，这将有助于我们认识企业的主导地位是否坚不可摧。某些情况下，巨大的市场份额根本就不能给企业带来任何优势。</p>
+
+<p>在执行效率上超越对手当然是个好办法，但如果没有难以复制的专有流程为基础，这个策略就不足以成为可持续竞争优势。</p>
+
+<p>仅仅拥有一个超凡脱俗的天才管理者，绝不等于拥有了可持续的竞争优势。</p>
+
+<p>绝大多数情况下，个人给大规模组织带来的实际影响都是有限的。</p>
+
+<p>真正的护城河：</p>
+
+<ul>
+  <li>企业拥有的无形资产，如品牌、专利或法定许可，能让该企业出售竞争对手无法效仿的产品或服务</li>
+  <li>企业出售的产品或服务让客户难以割舍，这就形成一种让企业拥有定价权的客户转换成本</li>
+  <li>有些幸运的公司还可以受益于网络经济，这是一种非常强大的经济护城河，它可以把竞争对手长期拒之门外</li>
+  <li>有些企业通过流程、地理位置、经营规模或特有资产形成成本优势，这就让它们能以低于竞争对手的价格出售产品或服务</li>
+</ul>
+
+<p>如果某些行业拥有比其他行业更具结构性的吸引力，那么，就可以在它们身上多花点工夫，这样，我们发现经济护城河的概率就会大为增加。</p>
+
+<blockquote>
+  <p>自来水公司、天然气管道公司、飞机场、水电站、高铁、耐用品。</p>
+</blockquote>
+
+<p>护城河是一个企业内在的结构性特征，而铁一样的事实告诉我们：某些企业天生就比其他企业优越。</p>
+
+<h2 id="第-3-章无形资产">第 3 章：无形资产</h2>
+
+<p>品牌可能会逐渐丧失原有的光环，专利会受到挑战，而许可权则有可能被政府收回。</p>
+
+<p>只有能提高消费者购买意愿的品牌，或者能巩固消费者对商品的依赖性的品牌，才能形成经济护城河。</p>
+
+<p>你们能否收取高于同类竞争产品的价格。如果不是这样的话，这种品牌也就不配这样的赞誉。</p>
+
+<p>如果一个企业仅仅凭借其品牌就能以更高的价格出售同类产品，那么，这个品牌就非常有可能形成一个强大无比的经济护城河。</p>
+
+<p>拜耳的价格是普通阿司匹林的2倍。这就是品牌的力量！</p>
+
+<p>大多数品牌的力量还是源于产品品质的不同，比如可口可乐、奥利奥饼干或梅赛德斯－奔驰汽车。对这些产品而言，品牌的价值在于它能减少客户的搜索成本，但未必能给企业带来定价权。</p>
+
+<p>生产一部更耐用的汽车，肯定要多花点成本。所以，我们很难保证梅赛德斯－奔驰能借助品牌享受成本优势。</p>
+
+<blockquote>
+  <p>品牌，把同样的商品卖出更高的价格。但是消费者也不傻，所以应该是把 2 元的改进，卖出 20 元。</p>
+</blockquote>
+
+<p>对以品牌为基础的经济护城河来说，最大的危险在于，品牌一旦失去魅力，企业也就无法再收取溢价了。当一些杂货店纷纷推出自有品牌的产品时，消费者突然意识到，他们还可以按更低的价格买到同样的东西——加工乳酪就是加工乳酪，它不可能有与众不同之处。</p>
+
+<p>归根结底，尽管品牌可以带来长久的竞争优势，但最关键的并不是品牌的受欢迎程度，而是它能否影响消费者的行为。</p>
+
+<p>专利权的问题。虽然它可以成为经济护城河最有价值的源泉，但这样的竞争优势，往往不会像你想的那么长远。</p>
+
+<p>专利权是有期限的，一旦到期，只要有利可图，竞争就会接踵而来。</p>
+
+<p>专利权带来的利润越大，就会有越多的律师想方设法攻击它。</p>
+
+<p>一定要当心那些把利润建立在少数专利产品基础上的企业，因为一旦它们的专利权受到挑战，就有可能给企业带来严重损失。</p>
+
+<p>专利权要形成名副其实的可持续竞争优势，唯一的条件就是企业不仅要拥有历史悠久的创新传统，能够让投资者完全有理由相信它的创新能力，还要拥有一大批专利产品。</p>
+
+<p>不断推出新的专利产品，以往的成功足以让市场相信：现有的专利产品注定要被新的专利产品所替代。</p>
+
+<p>只有那些拥有多种多样专利权和创新传统的企业，才拥有护城河。</p>
+
+<p>能创造持久性竞争优势的最后一种无形资产是法定许可，它让竞争对手很难甚至不可能进入你的市场。</p>
+
+<p>如果能找到一家企业，它可以像垄断者那样进行定价却不受任何管制，那么，你很可能已经找到了一个拥有宽护城河的城堡。</p>
+
+<blockquote>
+  <p>特许经营，价格不受管控。</p>
+</blockquote>
+
+<p>债券信用评级机构就是一个典型示例，它们把管制优势放大到一种近乎垄断的地位。在美国，要取得对发行的债券进行信用评级的资格，首先必须获得“美国特许统计评级机构”的认证。</p>
+
+<p>过分繁冗的许可管制，还是让美国的老虎机行业始终只有4家厂商。</p>
+
+<p>某些情况下，一系列小规模但难以获得的许可，也能挖出一条同样宽的护城河。</p>
+
+<p>现有垃圾场和采石场，本身的价值就很宝贵。因为得到新建垃圾场或采石场的审批近乎不可能。拥有地方许可的垃圾场和采石场，在行业里创造出一重重的微型护城河。</p>
+
+<p>在评价无形资产时，最关键的因素，还是看它们到底能给企业创造多少价值，以及它们能持续多久。</p>
+
+<h2 id="第-4-章转换成本">第 4 章：转换成本</h2>
+
+<p>更换银行账户却是一件麻烦且痛苦的事，彻底更换企业数据库和财务软件更是如此。</p>
+
+<p>转换成本同样是一种非常有价值的竞争优势，因为只要客户不会跑到竞争对手那里，企业就可以从客户身上多榨出一点油水。</p>
+
+<p>它之所以能在2个主要产品上保持巨大的市场份额，最根本的原因在于一旦改换门庭，QuickBooks和TurboTax的用户就要承受巨大的转换成本。</p>
+
+<p>今天的会计基本原理毕竟已经有500年的历史，因此，任何一种新财务软件都不可能给这些小企业的记账方法带来革命性变更。</p>
+
+<p>一家名为“精细铸件”（PrecisionCastparts）的小型航空机械制造公司，它生产的高科技超强金属配件，专门用于飞机发动机和发电厂涡轮机。精细铸件公司和一些客户的合作超过30年应该不是什么难以理解的事，实际上，它的工程师经常和客户一起工作，比如参与通用电气的新产品设计。</p>
+
+<p>大多数设计师在大学里就开始学习AutoCAD，他们的未来雇主当然也不希望因教他们学习新软件而影响生产效率。</p>
+
+<p>消费品企业，比如零售业、餐饮业以及包装商品类企业等。这是因为，低转换成本恰恰是此类企业的主要缺陷。</p>
+
+<p>识别转换成本并不容易，因为它要求我们深入理解客户的体验。如果你不是客户，就很难识别转换成本了。</p>
+
+<h2 id="第-5-章网络效应">第 5 章：网络效应</h2>
+
+<p>Visa、万事达（MasterCard）、美国运通和发现卡（Discover），它们占据了全美信用卡消费额的85%。建立在网络基础上的企业，更易于形成自然垄断和寡头垄断</p>
+
+<p>如果一种商品或服务的价值随使用者的增加而提高，那么，最有价值的网络型产品，就应该是能吸引到最多用户的产品。网络效应的绝对本质意味着，不可能同时存在众多的受益者。</p>
+
+<p>和以有形资本为基础的行业相比，网络效应在信息类或知识转移型行业中更为常见。相比于排他性（有形）商品，我们更有可能在信息共享型或用户集成型行业中找到网络效应的影子。</p>
+
+<p>在用户发现新网络的价值并摆脱现有网络之前，竞争对手首先要复制出这样一个网络，或者至少让自己的网络接近于这个网络。</p>
+
+<p>在日本，人们甚至从来就不知道eBay的存在。在这里，绝大多数在线拍卖交易都是在“日本雅虎”上完成的。原因似乎比你想象的简单得多：日本雅虎登陆日本市场的时间比eBay早5个月。就是这短短的5个月，让日本雅虎为自己找到了众多买家和卖家。</p>
+
+<p>日本雅虎的先见之明，还体现在它大量的广告和开张时的免费使用，两者让它迅速招揽到最关键的第一批客户。</p>
+
+<blockquote>
+  <p>ebay 在中国的溃败提醒我们：也不要对网络效应抱有太大期望，特别是存量远远大于现有量的时候 ！拼多多和今日头条的崛起是更重要的提醒。</p>
+</blockquote>
+
+<p>如果一家公司要想从网络效应中获益，就必须营造出一个封闭的网络。一旦这个本应封闭的网络被打开，网络效应便会四处飞溅。</p>
+
+<p>与罗宾逊全球物流存在业务关系的发货人越多，它对运输公司就越有吸引力，反之亦然。这不仅是一个网络效应的典型示例，也是一种强大的竞争优势。</p>
+
+<p>康捷国际的护城河在于四通八达的分支网络，这让它可以更有效地服务于客户，因为不管客户对发货路线有什么要求，康捷国际都能在这条路线的终点和起点拥有一个分支。</p>
+
+<blockquote>
+  <p>国内的快递物流企业是还没有完成洗牌？还是市场能够容纳这么多的物流企业？</p>
+</blockquote>
+
+<p>网络效应是一种异常强大的竞争优势。它并不是不可超越的，但在绝大多数情况下，竞争对手只能望而却步。这绝对是一条很难找到的护城河，不过，还是那句话，它值得你去探索。</p>
+
+<blockquote>
+  <p>微信、Facebook</p>
+</blockquote>
+
+<h2 id="第-6-章成本优势">第 6 章：成本优势</h2>
+
+<p>虽然成本优势在某些时候具有持久性，但它也会瞬间消失。</p>
+
+<p>在全球化的经济中，对于那些价格敏感性行业来说，采用低成本供应是唯一能让它们屹立不倒的秘诀。</p>
+
+<p>航空公司在购买新飞机的时候，只看哪家厂商——波音还是空客，会给它们优惠的价格，也就是说，最终的采购决策几乎完全依赖于价格。</p>
+
+<p>Intel的芯片当然不同于AMD的芯片，但是从客户的角度看，两者却没有任何区别，因此拥有最佳性价比的产品，最有可能得到客户的首肯。英特尔可能具有较低的长期运行成本，但如果AMD芯片拥有更好的性能，而且事实也一向如此，那么，客户就有可能会暂时转换产品。</p>
+
+<p>成本对汽车制造业来说至关重要，因为价格是客户选择产品的首要决定因素。</p>
+
+<p>当一家公司找到低成本的产品或服务市场模式时，竞争对手肯定会马上模仿这一流程，从而与业内领导者的成本结构保持一致。虽然这样的事情是不可避免的，但不像我们想象的那么快。因此，我们有必要理解，为什么竞争对手通常需要那么久的时间才能跟进，让最初创造低成本流程的从业者在那段时间内获利许多。</p>
+
+<p>在它们的低成本策略已人尽皆知的情况下，两者还能独霸一方。</p>
+
+<p>凭借区区几条航线，新的竞争者根本就无力承受不断恶化的长期亏损。</p>
+
+<p>现有的综合性钢铁企业却无法利用这些技术，因为它们已经在现有生产流程上投入了几十亿美元，它们不可能彻底放弃，从头开始。</p>
+
+<p>西南航空公司仍然拥有低于其他老牌航空公司的成本结构，这本身的确是一件难能可贵的事情，但它不得不面对JetBlue和AirTran的竞争。后者不仅可以得到最新的机型，还可以以低成本在二级机场获得一席之位。此外，老牌航空公司的财务状况江河日下，也给低成本航空公司扩大规模带来了可乘之机——大型航空公司拼死挣扎，因为只有这样，它们才不至于让资源闲置，才有可能击溃新崛起的暴发户。于是，新出现的低成本航空公司就必须复制西南航空的某些制胜法宝，在成本上与之抗衡。</p>
+
+<p>戴尔依然是PC领域成本最低的制造商。然而，惠普通过业务重组降低成本，IBM等高成本运营商把PC业务出售给联想这样更精明理智的企业，戴尔的优势已经被严重削弱，大不如前。此外，PC市场的变迁也让戴尔深受其害。因为戴尔的超人之处在于针对的是企业的台式PC机销售业务，这些谙熟的消费者对自己的需求心知肚明，但PC机市场的近期发展已呈现出笔记本电脑和大众型市场快速增长的态势，戴尔在笔记本电脑上毫无优势可言。而没有专卖店业务员的主动营销，非技术型客户在购买电脑时肯定会谨慎保守。</p>
+
+<p>微型钢铁企业也正在面对安赛乐米塔尔钢铁集团（ArcelorMittal，是现今全球规模最大的钢铁制造集团）等全球性企业的强势竞争，这些全球性钢铁企业可以在发展中国家的各个角落找到降低成本的机会，从而实现成本的最低化（比如说，安赛乐米塔尔哈萨克斯坦钢铁厂的劳动力成本低得几乎让人难以置信）。随着贸易壁垒的削弱、规模经济所带来的竞争，微型钢铁企业的成本优势已经大为弱化。</p>
+
+<p>建立在流程基础上的成本优势就可以形成暂时性护城河。</p>
+
+<p>第二类成本优势源于地理位置上的先天优势。和建立在过程基础上的成本优势相比，这种成本优势更具持久性，因为地理位置更加不容易复制。</p>
+
+<blockquote>
+  <p>海螺水泥</p>
+</blockquote>
+
+<p>如果企业拥有的矿藏类资源的采掘成本低于其他资源生产商，那么，这个幸运儿就会拥有竞争优势。</p>
+
+<p>阿特拉的大多数气井只需要700万美元的钻井成本，而北美其他地区的类似天然气田，即便是附近其他公司的钻井成本也在1700万~2500万美元。</p>
+
+<p>在巴西，桉树的砍伐期为7年，而邻国智利的砍伐期就要达到10年，北美国家的成熟期则多达20年。</p>
+
+<h2 id="第-7-章规模优势">第 7 章：规模优势</h2>
+
+<p>和一家只有10名律师的律师事务所相比，拥有1000名律师的律师事务所并没有任何成本优势。</p>
+
+<p>大规模配送网络可以形成令人生畏的竞争优势。</p>
+
+<h2 id="参考">参考</h2>
+
+<ol>
+  <li><a href="https://www.lijiaocn.com" title="李佶澳的博客">李佶澳的博客</a></li>
+</ol>
+
+
+</div>
+
+<!--div class="row" >
+  <br>
+  
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="text-align:left;padding:0px">
+
+
+</div>
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" style="text-align:right;padding:0px">
+
+
+</div>
+
+
+</div-->
+
+<div class="page_bottom_ad">
+  <div>
+	<h4>推荐阅读</h4>
+</div>
+
+</div>
+
+<div class="related">
+  <!-- Google 匹配内容页面-->
+<ins class="adsbygoogle"
+   style="display:block"
+   data-ad-format="autorelaxed"
+   data-ad-client="ca-pub-8176866190626448"
+   data-ad-slot="6443696990"></ins>
+<script>
+   (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div>
+
+<div class="copyright">
+  <br>
+  <div class="row">
+<p><a style="text-align:center;color:red" href="https://www.lijiaocn.com/life/discount/">专属公众号（微信扫一扫）</a></p>
+<img src="/money/img/self.jpg"></img>
+</div>
+
+</div>
+
+            </article>
+        </div>
+        <!--aside class="visible-sm-block visible-md-block visible-lg-block rsidebar">
+            todo: include rsidebar.html
+        </aside-->
+    </section>
+
+    <footer class="container-fluid foot">
+    <p>
+<span></span>
+<span>Copyright @2011-2019 All rights reserved.</span>
+<span>转载请添加原文连接，合作请加微信lijiaocn或者发送邮件: lijiaocn@foxmail.com，备注网站合作</span>
+</p>
+
+<p>
+<span>友情链接:</span>&nbsp;
+<span><a style="color:white" href="/">李佶澳的博客</a></span>&nbsp;
+<span><a style="color:white"  href="/note/">小鸟笔记</a></span>&nbsp;
+<span><a style="color:white"  href="/soft/">软件手册</a></span>&nbsp;
+<span><a style="color:white"  href="/prog/">编程手册</a></span>&nbsp;
+<span><a style="color:white"  href="/oper/">运营手册</a></span>&nbsp;
+<span><a style="color:white"  href="/coder/">爱马影视</a></span>&nbsp;
+<span><a style="color:white"  href="/class/">网络课程</a></span>&nbsp;
+<span><a style="color:white"  href="/skill/">奇技淫巧</a></span>&nbsp;
+<span><a style="color:white"  href="/tutorial/">课程文档</a></span>&nbsp;
+<span><a style="color:white"  href="/wechat/news/">精选文章</a></span>&nbsp;
+<span><a style="color:white"  href="https://www.baidu.com/">百度搜索</a></span>
+<span><a style="color:white"  href="https://www.google.com/">谷歌搜索</a></span>
+</p>
+
+    </footer>
+
+    <script src="/money/assets/js/jquery-1.24.4.min.js"></script>
+    <script src="/money/assets/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script src="/money/assets/js/body.js"></script>
+    <script type="text/javascript" src="/js/duomai.body.js"></script>
+    <script type="text/javascript" src="/js/taobao.body.js"></script>
+</body>
+</html>
