@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "《巴菲特的护城河》帕特·多尔西， 晨星公司选股解密"
+title: "帕特·多尔西《巴菲特的护城河》， 晨星公司选股解密"
 author: 李佶澳
 date: "2020-01-11T14:16:23+0800"
 last_modified_at: "2020-01-11T14:16:23+0800"
 categories: book
 cover: bfthch.jpg
-tags: 巴菲特
+tags: 价值投资
 keywords: 巴菲特,护城河,价值投资,晨星公司,帕特·多尔西
 description: 本书是晨星公司主管股票研究业务的帕特·多尔西撰写，介绍了晨星公司的实战经验。晨星公司（Morningstar）是目前美国最主要的投资研究机构之一和国际基金评级的权威构
 
