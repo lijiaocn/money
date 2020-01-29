@@ -2,6 +2,8 @@ book:
   name: 读书笔记
 note: 
   name: 思路技巧
+event: 
+  name: 时事时政
 szstock:
   name: 深圳交易所
 shstock:
