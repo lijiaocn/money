@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "SARS（非典）抗击中不为人知的惨烈"
+title: "SARS（非典）抗击背后不为人知的惨烈"
 author: 李佶澳
 date: "2020-02-01T14:59:30+0800"
 last_modified_at: "2020-02-01T14:59:30+0800"
